@@ -1,20 +1,14 @@
 import 'package:flutter/material.dart';
 
-class PositionTransitionScreen extends StatefulWidget {
+class PositionTransitionScreen extends StatelessWidget {
   const PositionTransitionScreen({super.key});
 
   static const id = 'Position Transition';
   @override
-  State<PositionTransitionScreen> createState() =>
-      _PositionTransitionScreenState();
-}
-
-class _PositionTransitionScreenState extends State<PositionTransitionScreen> {
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(PositionTransitionScreen.id),
+        title: const Text(id),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),

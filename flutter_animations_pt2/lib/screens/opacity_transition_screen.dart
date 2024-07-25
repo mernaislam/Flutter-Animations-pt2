@@ -1,20 +1,14 @@
 import 'package:flutter/material.dart';
 
-class OpacityTransitionScreen extends StatefulWidget {
+class OpacityTransitionScreen extends StatelessWidget {
   const OpacityTransitionScreen({super.key});
 
   static const id = 'Opacity Transition';
   @override
-  State<OpacityTransitionScreen> createState() =>
-      _OpacityTransitionScreenState();
-}
-
-class _OpacityTransitionScreenState extends State<OpacityTransitionScreen> {
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(OpacityTransitionScreen.id),
+        title: const Text(id),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),

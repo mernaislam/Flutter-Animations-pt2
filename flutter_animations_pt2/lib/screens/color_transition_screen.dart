@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
 
-class ColorTransitionScreen extends StatefulWidget {
+class ColorTransitionScreen extends StatelessWidget {
   const ColorTransitionScreen({super.key});
 
   static const id = 'Color Transition';
   @override
-  State<ColorTransitionScreen> createState() => _ColorTransitionScreenState();
-}
-
-class _ColorTransitionScreenState extends State<ColorTransitionScreen> {
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(ColorTransitionScreen.id),
+        title: const Text(id),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
