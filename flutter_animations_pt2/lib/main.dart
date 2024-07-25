@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/curve_animation_screen.dart';
 import 'package:flutter_animations_pt2/screens/home_screen.dart';
 import 'package:flutter_animations_pt2/screens/multiple_property_animations_screen.dart';
 import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
@@ -31,6 +32,7 @@ class AnimationsApp extends StatelessWidget {
         SizeTransitionScreen.id :(context) => const SizeTransitionScreen(),
         ShapeTransitionScreen.id :(context) => const ShapeTransitionScreen(),
         MultipleTransitionScreen.id :(context) => const MultipleTransitionScreen(),
+        CurveAnimationScreen.id :(context) => const CurveAnimationScreen(),
       },
       initialRoute: HomeScreen.id,
     );
