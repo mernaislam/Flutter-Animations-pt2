@@ -5,6 +5,7 @@ import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/position_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/rotation_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/scale_transition.dart';
+import 'package:flutter_animations_pt2/screens/size_transition_screen.dart';
 
 void main() {
   runApp(const AnimationsApp());
@@ -25,6 +26,7 @@ class AnimationsApp extends StatelessWidget {
         PositionTransitionScreen.id :(context) => const PositionTransitionScreen(),
         ScaleTransitionScreen.id :(context) => const ScaleTransitionScreen(),
         RotationTransitionScreen.id :(context) => const RotationTransitionScreen(),
+        SizeTransitionScreen.id :(context) => const SizeTransitionScreen(),
       },
       initialRoute: HomeScreen.id,
     );
