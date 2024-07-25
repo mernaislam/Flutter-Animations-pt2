@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_pt2/screens/animated_icon_screen.dart';
 import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/curve_animation_screen.dart';
 import 'package:flutter_animations_pt2/screens/home_screen.dart';
@@ -33,6 +34,7 @@ class AnimationsApp extends StatelessWidget {
         ShapeTransitionScreen.id :(context) => const ShapeTransitionScreen(),
         MultipleTransitionScreen.id :(context) => const MultipleTransitionScreen(),
         CurveAnimationScreen.id :(context) => const CurveAnimationScreen(),
+        AnimatedIconScreen.id :(context) => const AnimatedIconScreen(),
       },
       initialRoute: HomeScreen.id,
     );
