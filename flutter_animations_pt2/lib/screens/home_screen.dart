@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> animations = [
-      'Opacity Transition',
+      OpacityTransitionScreen.id,
       'Color Transition',
       'Position Transition',
       'Scale Transition',
