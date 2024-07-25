@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     List<String> animations = [
       OpacityTransitionScreen.id,
-      'Color Transition',
+      ColorTransitionScreen.id,
       'Position Transition',
       'Scale Transition',
       'Rotation Transition',
