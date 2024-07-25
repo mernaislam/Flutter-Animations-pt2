@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/position_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/scale_transition.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,8 +14,8 @@ class HomeScreen extends StatelessWidget {
     List<String> animations = [
       OpacityTransitionScreen.id,
       ColorTransitionScreen.id,
-      'Position Transition',
-      'Scale Transition',
+      PositionTransitionScreen.id,
+      ScaleTransitionScreen.id,
       'Rotation Transition',
       'Size Transition',
       'Shape Transition',
