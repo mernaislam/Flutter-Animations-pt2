@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/position_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/rotation_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/scale_transition.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -16,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       ColorTransitionScreen.id,
       PositionTransitionScreen.id,
       ScaleTransitionScreen.id,
-      'Rotation Transition',
+      RotationTransitionScreen.id,
       'Size Transition',
       'Shape Transition',
       'Curve Animation',

@@ -3,6 +3,7 @@ import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/home_screen.dart';
 import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/position_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/rotation_transition_screen.dart';
 import 'package:flutter_animations_pt2/screens/scale_transition.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class AnimationsApp extends StatelessWidget {
         ColorTransitionScreen.id : (context) => const ColorTransitionScreen(),
         PositionTransitionScreen.id :(context) => const PositionTransitionScreen(),
         ScaleTransitionScreen.id :(context) => const ScaleTransitionScreen(),
+        RotationTransitionScreen.id :(context) => const RotationTransitionScreen(),
       },
       initialRoute: HomeScreen.id,
     );
