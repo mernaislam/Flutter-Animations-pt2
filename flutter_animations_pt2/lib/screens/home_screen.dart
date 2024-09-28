@@ -1,4 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_pt2/screens/color_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/curve_animation_screen.dart';
+import 'package:flutter_animations_pt2/screens/multiple_property_animations_screen.dart';
+import 'package:flutter_animations_pt2/screens/opacity_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/position_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/rotation_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/scale_transition.dart';
+import 'package:flutter_animations_pt2/screens/shape_transition_screen.dart';
+import 'package:flutter_animations_pt2/screens/size_transition_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,16 +17,16 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> animations = [
-      'Opacity Transition',
-      'Color Transition',
-      'Position Transition',
-      'Scale Transition',
-      'Rotation Transition',
-      'Size Transition',
-      'Shape Transition',
-      'Curve Animation',
+      OpacityTransitionScreen.id,
+      ColorTransitionScreen.id,
+      PositionTransitionScreen.id,
+      ScaleTransitionScreen.id,
+      RotationTransitionScreen.id,
+      SizeTransitionScreen.id,
+      ShapeTransitionScreen.id,
+      CurveAnimationScreen.id,
       'Animated Icon',
-      'Multiple Property Animations',
+      MultipleTransitionScreen.id,
     ];
     return Scaffold(
       appBar: AppBar(
